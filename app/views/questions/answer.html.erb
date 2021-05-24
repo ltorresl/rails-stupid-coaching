@@ -1,0 +1,10 @@
+<div class="question card">
+  <p><%= @question %></p>
+  <p><em>- You</em></p>
+</div>
+
+<div class="answer card">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>- Your coach</em></p>
+</div>
+<footer> <%= link_to "Ask another question to Coach", ask_path %> </footer>
